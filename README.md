@@ -32,6 +32,7 @@ Technologies used in this project:
 - Angular
 
 **Setup**
+
 **1. Backend Application**
 Clone the backend repositories:
 - gateway-service: https://github.com/jegor-chomczuk/gateway-service
@@ -69,6 +70,7 @@ Run the following command to start the frontend application: npm start
 The application will be available at: http://localhost:4200/
 
 **Backend API**
+
 All routes are using gateway-service port - http://localhost:8000. There are following routs:
 1. userController:
 - [GET] http://localhost:8000/user/all - get all user,
