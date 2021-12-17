@@ -141,16 +141,17 @@ All routes are using gateway-service port - http://localhost:8000. There are fol
 
 
 **Frontend Application**
+
 The frontend application allows a user to register and to log into the application. Within the app, user can see his monthly overview of his finances and modify them.Frontend application can be devided into:
 
-**Home page**: welcome message and links to Login and Register processes are presented;
+- **Home page**: welcome message and links to Login and Register processes are presented;
 
-**Register page**: user can regoster himself;
+- **Register page**: user can regoster himself;
 
-**Login page**: registered user can login into the application;
+- **Login page**: registered user can login into the application;
 
-**Annual summory**: user can see his annual summory of home finances;
+- **Annual summory**: user can see his annual summory of home finances;
 
-**Monthly summory** (per each month): user can see overall summory of planned and real expenses, also he/she can plan and mark acctual incomes for particular month and check the overall progress;
+- **Monthly summory** (per each month): user can see overall summory of planned and real expenses, also he/she can plan and mark acctual incomes for particular month and check the overall progress;
 
-**Settings**: user can make global change regarding expense and income categories, which are available for him/her. 
+- **Settings**: user can make global change regarding expense and income categories, which are available for him/her. 
