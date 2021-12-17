@@ -19,12 +19,17 @@ Your project must meet all of the requirements below:
 **2. Built With**
 Technologies used in this project:
 
-Java
-Spring
-MySQL
-GitHub
-Node.js
-Angular
+- Java
+
+- Spring
+
+- MySQL
+
+- GitHub
+
+- Node.js
+
+- Angular
 
 **Setup**
 **1. Backend Application**
