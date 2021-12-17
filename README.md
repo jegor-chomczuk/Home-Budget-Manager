@@ -49,9 +49,13 @@ The edge service will be available at: http://localhost:8000/
 Setup the following database name and user, or setup your own database by changing the values in the application.properties file
 
 CREATE USER 'ironhacker'@'localhost' IDENTIFIED BY '1ronhacker';
+
 GRANT ALL PRIVILEGES ON *.* TO 'ironhacker'@'localhost';
+
 FLUSH PRIVILEGES;
+
 CREATE DATABASE HomeBudgetManager;
+
 USE HomeBudgetManager;
 
 Run the following command to start the spring application: mvn spring-boot:run, or by using an IDE like IntelliJ IDEA
@@ -139,10 +143,14 @@ All routes are using gateway-service port - http://localhost:8000. There are fol
 **Frontend Application**
 The frontend application allows a user to register and to log into the application. Within the app, user can see his monthly overview of his finances and modify them.Frontend application can be devided into:
 
-Home page: welcome message and links to Login and Register processes are presented;
-Register page: user can regoster himself;
-Login page: registered user can login into the application;
-Annual summory: user can see his annual summory of home finances;
-Monthly summory (per each month): user can see overall summory of planned and real expenses, also he/she can plan and mark acctual incomes for particular month and check the overall progress;
-Settings: user can make global change regarding expense and income categories, which are available for him/her. 
-Playlist page: where the user can see and edit their playlists and add movies to them.
+**Home page**: welcome message and links to Login and Register processes are presented;
+
+**Register page**: user can regoster himself;
+
+**Login page**: registered user can login into the application;
+
+**Annual summory**: user can see his annual summory of home finances;
+
+**Monthly summory** (per each month): user can see overall summory of planned and real expenses, also he/she can plan and mark acctual incomes for particular month and check the overall progress;
+
+**Settings**: user can make global change regarding expense and income categories, which are available for him/her. 
