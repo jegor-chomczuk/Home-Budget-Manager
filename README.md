@@ -1,6 +1,7 @@
 # Home-Budget-Manager
 
 **Summary**
+
 Welcome to still-to-be-finished project - Home Budget Manager. HBM allows you to supervise your finances and optimize money flow within your household. This application will allow you to plan your expenses and incomes monthly, and keep track of money flow with every spedning or money income. Money charts will help you keep your finances under control easily.
 
 Check in later for new updates.
